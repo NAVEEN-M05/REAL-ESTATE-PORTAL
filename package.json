@@ -1,0 +1,14 @@
+{
+  "name": "smart-campus-system",
+  "version": "1.0.0",
+  "description": "Smart Campus Resource & Energy Management System (React, Express, PostgreSQL)",
+  "scripts": {
+    "server": "npm --prefix server start",
+    "client": "npm --prefix client run dev",
+    "build:client": "npm --prefix client run build",
+    "install:all": "npm --prefix server install && npm --prefix client install"
+  },
+  "keywords": ["smart-campus", "iot-simulation", "react", "tailwind", "express", "postgresql"],
+  "author": "Antigravity Engineering",
+  "license": "MIT"
+}
